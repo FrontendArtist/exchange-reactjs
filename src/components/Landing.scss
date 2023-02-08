@@ -1,0 +1,52 @@
+.home{
+    display:flex ;
+     flex-Direction:column ;
+      align-Items:center
+}
+.search-input{
+    width: 200px;
+    height: 35px;
+    border-top: 1px rgb(5, 205, 255) solid;
+    border-left: 1px rgb(5, 205, 255) solid;
+    border-right: 1px rgb(5, 205, 255) solid;
+    border-bottom: 1px #0e1e2f solid;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color:#0e1e2f;
+    color:rgb(5, 205, 255);
+    padding: 5px;
+    font-family: ubuntu;
+    text-align: center;
+}
+.search-box{
+    z-index: 2;
+    :focus{
+        outline: 1px solid rgb(5, 205, 255);
+    }
+}
+.container{
+    background-color: #0e1e2f;
+    width:800px;
+    border: 1px rgb(5, 205, 255) solid;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(5, 205, 255);
+    margin-top: -1px;
+    z-index: 1;
+}
+.coins{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.loader{
+    width: 500px;
+}
+.searchNotFound{
+    margin: 20px;
+    font-family: ubuntu;
+    font-size: 1.4rem;
+}

@@ -1,0 +1,35 @@
+.coin{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 0px;
+    margin: 10px 0px;
+    font-family: ubuntu;
+
+    &__image{
+        width: 60px;
+    }
+    &__name{
+        width: 140px;
+        margin-left: 15px;
+        text-align: left;
+    }
+    &__symbol{
+        text-align: left;
+        width: 100px;
+    }
+    &__price{
+        width: 100px;
+        text-align: left;
+    }
+    &__priceChange{
+    width: 100px;
+    text-align: left;
+    }
+    &__priceChange--negative{
+        width: 100px;
+        text-align: left;
+        color :rgb(255, 53, 53);
+    }
+}
